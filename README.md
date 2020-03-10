@@ -12,7 +12,7 @@ presented in guide file. By default population number of NN set to 10.The script
 after set of experimant (which is equal to number of population).
 The problem is considered solved when any neural network from the population once holds the pendulum for 200 steps.
 
-With chosen parameters NN solve the each time. With decreaing number of hidden neurons the NN less and less 
+Chosen parameters allow us NN solve the each time. With decreaing number of hidden neurons the NN less and less 
 solve task. Similar result with increasing the perturbance value, because it's harder to find the local optima with big step.
 
 
