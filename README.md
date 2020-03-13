@@ -23,4 +23,6 @@ In order to train th NN was performed 3 expriments with different seed parameter
 The train process across generation you see on the figure 
 ![Image of Yaktocat](https://github.com/rassabin/Behavioural-and-Cognitive-Robotics/blob/master/data/figure_1.png)
 As you can see the model with seed equal to 12 do not train at all and best train result on model with seed = 10.
-Also the test for each robot was performed the results you can find in video files in data folder. Observation also show that pend_S12 do not reach any result in training. 
+Average Generalization of the 3 fir files equal to: -136.20 +-51.85.
+Also the test for each robot was performed the results you can find in video files in "data" folder. Observation also show that pend_S12 do not reach any result in training. 
+All trained files you can find in "result" folder.
