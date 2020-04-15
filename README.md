@@ -144,5 +144,8 @@ And on the output we get:
 ## Task 6
 The trining process for Discrim robot was performed for different seed state and get the result on fig:
 ![Image of Yaktocat](https://github.com/rassabin/Behavioural-and-Cognitive-Robotics/blob/master/data/lstm_s10_19.png)
-
+As you can see the best result during fitting got the LSTM network with seed = 15.
+The obviuos feed forward shows different from LSTM behaviour of training process:
+![Image of Yaktocat](https://github.com/rassabin/Behavioural-and-Cognitive-Robotics/blob/master/data/ff_s10_19.png)
+LSTM groups shows more or less uniform training process, but some groups has some pike at beginng and therefore they get more progress. This peak may be due to successful random parameters during training. 
 
