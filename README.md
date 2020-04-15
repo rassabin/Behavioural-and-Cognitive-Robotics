@@ -28,7 +28,11 @@ Also the test for each robot was performed the results you can find in video fil
 All trained files you can find in "result" folder.
 
 ## Task 4
-
+Was perdromed the training process of hopper. But due to computational complexity max step in ".ini" was decreased in 10 times.
+Trainig process was done by standart reward function and by revised one.
+The fig for standart type shown next:
+And for revised reward function:
+AS you can see 
 
 ## Task 5
 For building new robot in Gym/Bullet environment was created next structure of the project:
@@ -150,4 +154,5 @@ The obviuos feed forward shows different from LSTM behaviour of training process
 
 LSTM groups shows more or less uniform training process, but some groups has some pike at beginng and therefore they get more progress. This peak may be due to successful random parameters during training. 
 
-
+Also was compared the best bit robots from LSTM group and FF: 15 and 13.
+The motion of LSTM looks more sequential quite differ with FF nearby reward point: LSTM robot do roation around itself axes, FF robot do the calibation with small angle and small bias position. 
