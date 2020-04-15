@@ -142,5 +142,6 @@ And on the output we get:
 [1.3617475 5.7765656 3.460238 ]
 ```
 ## Task 6
-
+The trining process for Discrim robot was performed for different seed state and get the result on fig:
+![Image of Yaktocat](https://github.com/rassabin/Behavioural-and-Cognitive-Robotics/blob/master/data/lstm_s10_19.png)
 
