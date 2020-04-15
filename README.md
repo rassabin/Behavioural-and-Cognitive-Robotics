@@ -145,3 +145,4 @@ And on the output we get:
 The trining process for Discrim robot was performed for different seed state and get the result on fig:
 ![Image of Yaktocat](https://github.com/rassabin/Behavioural-and-Cognitive-Robotics/blob/master/data/lstm_s10_19.png)
 
+
