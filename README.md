@@ -32,7 +32,7 @@ All trained files you can find in "result" folder.
 
 ## Task 5
 For building new robot in Gym/Bullet environment was created next structure of the project:
-_______________________
+'''
 balance-bot/
   README.md
   setup.py
@@ -41,12 +41,12 @@ balance-bot/
     envs/
       __init__.py
       balancebot_env.py
-________________________
+'''
 
 All files was copied from pdf guideline. Also from original directories was copyied the xml with physical structure of the robot. 
 After it the balance-bot module was building by pip. The zip archive contains of balance_bot project you can find in 'data' folder of repository.
 In order to proving of succefully building of the module was used the script:
-_____________________________________________________
+''' python
 import balance_bot
 import gym
 from gym import wrappers
@@ -61,7 +61,7 @@ for _ in range(1000):
     if done:
         break
 env.close()
-_______________________________________________________
+'''
 
 And on the output we get:
 
