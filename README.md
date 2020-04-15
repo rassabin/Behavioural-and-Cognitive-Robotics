@@ -32,7 +32,18 @@ Was perdromed the training process of hopper. But due to computational complexit
 Trainig process was done by standart reward function and by revised one.
 The fig for standart type shown next:
 And for revised reward function:
-AS you can see 
+AS you can see on the fig:
+![Image of Yaktocat](https://github.com/rassabin/Behavioural-and-Cognitive-Robotics/blob/master/data/S10_hooper_RS.png)
+Network with revised reward function learn faster ans reach best result at the end.
+Also the train statistic of the revised and standart function:
+```
+Standart :Seed 10 gen 2404 eval 5000907 bestfit 225.80 bestgfit 193.97 centroid 147.98 bestsam 163.97 avg 123.70 weightsize 0.21 runtime 4328.16
+
+Revised: Seed 10 gen 2231 eval 5000736 bestfit 251.42 bestgfit 240.98 centroid 224.51 bestsam 240.47 avg 226.64 weightsize 0.19 runtime 4106.03
+
+```
+Show that the revised one require less number of generation to get the goal, less runtime, and reach better metrics such as :
+bestfit, bestgfit, centroid, bestsam.
 
 ## Task 5
 For building new robot in Gym/Bullet environment was created next structure of the project:
